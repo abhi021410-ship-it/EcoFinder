@@ -212,8 +212,8 @@ EcoFindr simplifies sustainable shopping by providing an instant sustainability 
 
 B.Tech – Artificial Intelligence & Data Science
 
-- GitHub: [https://github.com/yourusername](https://github.com/abhi021410-ship-it)
-- LinkedIn: [https://linkedin.com/in/yourprofile](https://www.linkedin.com/in/abhiram-reddy-7470b6344/)
+- GitHub: https://github.com/abhi021410-ship-it
+- LinkedIn: https://www.linkedin.com/in/abhiram-reddy-7470b6344/
 
 ---
 
