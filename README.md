@@ -212,14 +212,10 @@ EcoFindr/
 ---
 
 ## 🎥 Demo
+<img width="1918" height="931" alt="Screenshot 2026-07-17 164500" src="https://github.com/user-attachments/assets/384982e9-1b6b-4fe8-b122-db39c267bd24" />
 
-*(Add GIF here)*
+<img width="1918" height="967" alt="Screenshot 2026-07-17 144443" src="https://github.com/user-attachments/assets/1de6ad99-8742-40db-9c64-b47acd5c92a5" />
 
-```
-assets/demo.gif
-```
-
----
 
 ## 💡 Why I Built This
 
@@ -235,8 +231,8 @@ EcoFindr simplifies sustainable shopping by providing an instant sustainability 
 
 B.Tech – Artificial Intelligence & Data Science
 
-- GitHub: https://github.com/yourusername
-- LinkedIn: https://linkedin.com/in/yourprofile
+- GitHub: [https://github.com/yourusername](https://github.com/abhi021410-ship-it)
+- LinkedIn: [https://linkedin.com/in/yourprofile](https://www.linkedin.com/in/abhiram-reddy-7470b6344/)
 
 ---
 
