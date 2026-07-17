@@ -1,16 +1,245 @@
-# React + Vite
+# 🌿 EcoFindr — AI-Powered Eco-Friendly Shopping Assistant
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> A Chrome Extension that helps shoppers make environmentally conscious purchasing decisions by analyzing product descriptions and assigning an EcoScore in real time.
 
-Currently, two official plugins are available:
+![React](https://img.shields.io/badge/React-18-blue?logo=react)
+![Vite](https://img.shields.io/badge/Vite-6-purple?logo=vite)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript)
+![Chrome Extension](https://img.shields.io/badge/Chrome-Extension-green?logo=googlechrome)
+![License](https://img.shields.io/badge/License-MIT-blue)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 📖 Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+EcoFindr is a browser extension that evaluates the sustainability of products while users browse e-commerce websites such as Amazon and Flipkart.
 
-## Expanding the ESLint configuration
+Instead of reading lengthy product descriptions, users instantly receive an **EcoScore (0–100)** along with a detailed explanation of why the product is environmentally friendly—or not.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The project demonstrates practical web scraping, browser extension development, DOM manipulation, rule-based AI scoring, and modern frontend development.
+
+---
+
+## ✨ Features
+
+- 🌱 Real-time EcoScore calculation
+- 🛒 Supports Amazon & Flipkart product pages
+- 📊 Sustainability breakdown with positive and negative factors
+- 🎨 Premium luxury-inspired interface
+- ⚡ Floating EcoScore badge
+- 📦 Chrome Extension (Manifest V3)
+- 💾 Local storage support
+- 📱 Responsive popup dashboard
+
+---
+
+## 🖼️ Screenshots
+
+### Home / Popup
+
+> *(Add screenshot here)*
+
+```
+assets/screenshots/popup.png
+```
+
+---
+
+### Amazon Product Page
+
+> *(Add screenshot here)*
+
+```
+assets/screenshots/amazon.png
+```
+
+---
+
+### EcoScore Badge
+
+> *(Add screenshot here)*
+
+```
+assets/screenshots/badge.png
+```
+
+---
+
+## 🏗️ Architecture
+
+```
+                 User
+                  │
+                  ▼
+      Amazon / Flipkart Page
+                  │
+        Content Script (JS)
+                  │
+        Extract Product Details
+                  │
+        Eco Scoring Engine
+                  │
+      Chrome Local Storage
+                  │
+                  ▼
+         React Popup Dashboard
+```
+
+---
+
+## ⚙️ Tech Stack
+
+| Technology | Purpose |
+|------------|----------|
+| React | Frontend UI |
+| Vite | Development & Build Tool |
+| JavaScript | Core Logic |
+| Chrome Extension API | Browser Integration |
+| Manifest V3 | Extension Framework |
+| HTML/CSS | Styling |
+| Local Storage | Data Persistence |
+
+---
+
+## 🧠 EcoScore Logic
+
+Each product starts with a base score.
+
+Positive keywords increase the score:
+
+- ♻️ Recycled
+- 🌿 Organic
+- 🧴 Refillable
+- 🪵 Bamboo
+- 🥛 Glass
+- 📦 Recyclable Packaging
+
+Negative keywords reduce the score:
+
+- ❌ Plastic
+- ⚠️ PVC
+- 🗑️ Disposable
+- 📱 Electronics
+- 👕 Fast Fashion
+- 🚚 High Carbon Shipping
+
+---
+
+## 🚀 Installation
+
+### Clone Repository
+
+```bash
+git clone https://github.com/yourusername/EcoFindr.git
+```
+
+---
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+---
+
+### Start Development
+
+```bash
+npm run dev
+```
+
+---
+
+### Build Extension
+
+```bash
+npm run build
+```
+
+---
+
+### Load in Chrome
+
+1. Open Chrome
+
+```
+chrome://extensions
+```
+
+2. Enable Developer Mode
+
+3. Click **Load unpacked**
+
+4. Select the **extension/** folder
+
+---
+
+## 📂 Project Structure
+
+```
+EcoFindr/
+│
+├── assets/
+│   └── screenshots/
+│
+├── extension/
+│
+├── public/
+│
+├── src/
+│
+├── background.js
+├── contentScript.js
+├── manifest.json
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## 🎯 Future Improvements
+
+- 🤖 AI-powered sustainability analysis
+- 🌍 Carbon footprint estimation
+- 📈 Product comparison dashboard
+- 🔍 Barcode scanning
+- 📊 Eco shopping history
+- ☁️ Cloud synchronization
+- 📱 Firefox & Edge support
+
+---
+
+## 🎥 Demo
+
+*(Add GIF here)*
+
+```
+assets/demo.gif
+```
+
+---
+
+## 💡 Why I Built This
+
+Consumers often struggle to identify environmentally responsible products while shopping online.
+
+EcoFindr simplifies sustainable shopping by providing an instant sustainability score directly on product pages, helping users make informed purchasing decisions.
+
+---
+
+## 👨‍💻 Author
+
+**M. Abhiram Reddy**
+
+B.Tech – Artificial Intelligence & Data Science
+
+- GitHub: https://github.com/yourusername
+- LinkedIn: https://linkedin.com/in/yourprofile
+
+---
+
+## ⭐ If you found this project interesting
+
+Please consider giving it a ⭐ on GitHub!
