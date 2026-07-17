@@ -35,35 +35,16 @@ The project demonstrates practical web scraping, browser extension development, 
 
 ## 🖼️ Screenshots
 
-### Home / Popup
 
-> *(Add screenshot here)*
-
-```
-assets/screenshots/popup.png
-```
-
----
 
 ### Amazon Product Page
+<img width="1918" height="931" alt="Screenshot 2026-07-17 164500" src="https://github.com/user-attachments/assets/5a23256b-4397-4af1-b78a-cefa6af4147a" />
 
-> *(Add screenshot here)*
-
-```
-assets/screenshots/amazon.png
-```
-
----
 
 ### EcoScore Badge
+<img width="1918" height="967" alt="Screenshot 2026-07-17 144443" src="https://github.com/user-attachments/assets/59cab35a-8439-4968-9298-5522a441430b" />
 
-> *(Add screenshot here)*
 
-```
-assets/screenshots/badge.png
-```
-
----
 
 ## 🏗️ Architecture
 
